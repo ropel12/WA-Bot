@@ -6,7 +6,6 @@ dotenv.config()
 import pkgai from "openai";
 const { Configuration, OpenAIApi } = pkgai;
 import pkgenv from 'process';
-const { exit } = pkgenv;
 import fetch from 'node-fetch';
 import fs from 'fs';
 import bad from 'indonesian-badwords'
